@@ -19,6 +19,11 @@ namespace BuilderPattern
             director.Construct(builder2);
             Menu menu2 = builder2.GetResult();
             Console.WriteLine("Burger menu: {0}", menu2);
+
+            MenuBuilder builder3 = new SaladMenuBuilder();
+            director.Construct(builder3);
+            Menu menu3 = builder3.GetResult();
+            Console.WriteLine("Burger menu: {0}", menu3);
         }
     }
 }
