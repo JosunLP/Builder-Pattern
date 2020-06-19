@@ -6,7 +6,7 @@ namespace BuilderPattern.builder
 {
     abstract class MenuBuilder
     {
-        public abstract void BuildBurgerOtSalad();
+        public abstract void BuildBurgerOrSalad();
 
         public abstract void BuildFries();
 

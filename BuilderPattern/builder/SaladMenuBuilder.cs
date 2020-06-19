@@ -8,7 +8,7 @@ namespace BuilderPattern.builder
     {
         private Menu _menu = new Menu();
 
-        public override void BuildBurgerOtSalad()
+        public override void BuildBurgerOrSalad()
         {
             _menu.Add("Salad");
         }

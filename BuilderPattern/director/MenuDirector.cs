@@ -9,7 +9,7 @@ namespace BuilderPattern.director
     {
         public void Construct(MenuBuilder builder)
         {
-            builder.BuildBurgerOtSalad();
+            builder.BuildBurgerOrSalad();
             builder.BuildFries();
             builder.BuildDessert();
             builder.BuildDrink();
